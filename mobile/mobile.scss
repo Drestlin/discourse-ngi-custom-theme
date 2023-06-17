@@ -126,6 +126,9 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
     font-size: var(--font-down-2);
 }
 
+/* Muovi reaction sulla sinistra in mobile */
 .discourse-reactions-reaction-button {
     margin-right: 1em;
+    position: absolute;
+    left: 10px;
 }
